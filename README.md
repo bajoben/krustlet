@@ -1,4 +1,5 @@
-# Original repo from [https://github.com/deislabs/krustlet/tree/main/docs/howto/assets]
+## Original repo
+[https://github.com/deislabs/krustlet]
 
 ## Build with Nixos
 
@@ -11,6 +12,8 @@
 ```
 $ nix-build -E "with import <nixpkgs> {}; callPackage <path-to>/krustlet.nix {}" --show-trace
 ```
+
+---------------------------------------------------------------------------------------------
 
 # Krustlet: Kubernetes Kubelet in Rust for running WASM
 
